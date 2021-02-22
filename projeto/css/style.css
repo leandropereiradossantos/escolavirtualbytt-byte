@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#menu-h{
+    background-color: rgb(167, 189, 188);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+.motivacional h1{    
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.motivacional strong{
+    color: rgb(63, 63, 63);
+}
+.motivacional p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+.container {
+    display: grid;
+    width: 660px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-column-gap: 150px; 
+}
+
+.container h3{
+    font-size: 15px;
+    text-align: center;
+}
+
+.container p{
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.cards{
+    background: #e0eee0;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    
+    background: #ffffff;
+    width: 250px;
+    box-shadow: 0px 2px 10px;
+    height: 400px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+}
+
+.card-cabecalho{
+	margin:15px;
+	
+}
+
+.card-titulo{
+    color: purple;
+  
+}
+
+.card-corpo{
+	padding: 2px;
+	height: 60%;
+}
+
+.card-img{
+	width: 100%;
+}
+
+.card-rodape{
+    color: purple;
+	padding: 20px;
+	text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card {
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:30px;
+}
+
+.continer-logo{
+       display: flex;
+       height: 200px;
+}
+.rodape_final{
+    background-color: #696969;
+    color: black;
+    display: block;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+    
+}
+
+.art_rod{
+    border: 1px solid #696969;
+    width: 31%;
+    margin: 10px;
+       
+}
+
+.img_rod{
+    width: 200px;
+   }
+
+
+
+
+
+

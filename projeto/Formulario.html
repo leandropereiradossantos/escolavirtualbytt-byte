@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Formulário</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/formulario.css">
+</head>
+
+<body>
+
+	<header class="titulo">
+		<h1>Formulário</h1>
+	</header>
+	<main>
+
+		<h2 class="titulo">REALIZE SEU CADASTRO</h2>
+		<form>
+			<fieldset id="usuario" class="blocos">
+				<legend>Dados Obrigatórios</legend>
+
+				<p><label for="Nome">Nome : <input type="text" nome="Nome" id="Nome" size="20" maxlength="30" required="required">
+
+			<label for="Sobre Nome">Sobre Nome : <input type="text" nome="Sobre Nome" id="Sobre Nome" size="20" maxlength="30" required="required">
+			
+			<p><label for="RG">RG : <input type="text" nome="RG" id="RG" size="10" maxlength="13" required="required">
+
+			<label for="CPF">CPF : <input type="text" nome="CPF" id="CPF" size="10" maxlength="14" required="required">
+			<br>
+			<br>
+			<label for="txnome">Data de Nascimento : </label>
+					<input type="date" name="Nascimento" id="Nascimento">
+
+					<p><label for="txnome">E-mail : <input type="text" nome="E-mail" id="E-mai" size="20" maxlength="40">
+			<br>
+
+			<div>
+				<legend>Nacionalidade:</legend>
+				<select>
+					<option value="A" >Americana</option>
+					<option value="B" >Africana</option>
+					<option value="C" >Ásiatica</option>
+					<option value="D" >Europeia</option>
+					<option value="E" >Oriental</option>
+					<option value="F" >Bresileira</option>
+				</select>
+			</div>
+				<br>
+
+				<p><label for="txnome">Natural de : <input type="text" nome="Natural de" id="Natural de" size="20" maxlength="40" required="required">
+			    <br>
+
+			            <p>Estado Civil :</p>
+			            <label for="Casado1"><input name="estado" id="Casado" value="Casado" type="radio">Casado</label>
+						<label for="Solteiro2"><input name="estado" id="Solteiro" value="Solteiro" type="radio">Solteiro</label>
+						<br>
+						<br>
+
+						<p>Selecione seu sexo :</p>
+						<label for="sexo1"><input name="sexo" id="sexo1" value="m" type="radio">Masculino</label>
+						<label for="sexo2"><input name="sexo" id="sexo2" value="f" type="radio">Feminino</label>
+
+			</fieldset>
+			<br>
+
+			<fieldset id="usuario" class="blocos">
+				<legend>Perfil :</legend>
+				<label for="txdescricao">Bibliografia :</label>
+				<textarea id="txdescricao"></textarea>
+				<br>
+				<br>
+
+				<div>
+					<legend>Escolaridade:</legend>
+					<select>
+					<option value="A" >Ensino Fundamental</option>
+					<option value="B" >Ensino médio</option>
+					<option value="C" >Curso Técinico</option>
+					<option value="D" >Ensino superior</option>
+					<option value="E" >Mestrado</option>
+					<option value="F" >Doutorado</option>
+				</select>
+				</div>
+				<br>
+
+				<div>
+					<legend>Origem:</legend>
+					<select>
+						<option value="A" >África</option>
+						<option value="B" >América</option>
+						<option value="C" >Ásia</option>
+						<option value="D" >Europa</option>
+						<option value="E" >Oceania</option>
+				 </select>
+				</div>
+
+			</fieldset>
+			<br>
+			<br>
+
+			<fieldset id="Endereço" class="blocos">
+				<legend>Endereço :</legend>
+				<p>Logradouro : <input type="text" name="Rua" id="Rua" size="13" maxlength="80" placeholder="Rua, Av, Trav, ..." /></p>
+				<p>Número : <input type="number" name="Num" id="Num" min="0" max="99999"></p>
+				<p><label for="RG">CEP : <input type="text" nome="CEP" id="CEP" size="10" maxlength="9" >
+				<div>
+				<legend>Estado:</legend>
+				<select>
+					<option value="A" > Acre</option>
+					<option value="B" > Alagoas</option>
+					<option value="C" >Amapá</option>
+					<option value="D" >Amazonas</option>
+					<option value="E" >Bahia</option>
+					<option value="F" > Ceará</option>
+					<option value="G" > Distrito Federal</option>
+					<option value="H" > Espírito Santo</option>
+					<option value="I" >Goiás</option>
+					<option value="J" >Maranhão</option>
+					<option value="K" >Mato Grosso</option>
+					<option value="L" >Mato Grosso do Sul</option>
+					<option value="M" >Minas Gerais</option>
+					<option value="N" >Pará</option>
+					<option value="O" >Paraíba</option>
+					<option value="P" >Paraná</option>
+					<option value="Q" >Pernambuco</option>
+					<option value="R" >Piauí</option>
+					<option value="S" >Rio de Janeiro</option>
+					<option value="T" >Rio Grande do Norte</option>
+					<option value="U" >Rio Grande do Sul</option>
+					<option value="V" >Rondônia</option>
+					<option value="X" >Roraima</option>
+					<option value="Z" >Santa Catarina</option>
+					<option value="W" >São Paulo</option>
+					<option value="Y" >Sergipe</option>
+					<option value="AA" >Tocantins</option>
+				</select>
+				<p><label for="RG">Cidade : <input type="text" nome="Cid" id="Cid" size="10" maxlength="20"></label>
+
+
+			</fieldset>
+
+			<br>
+
+			<input type="submit" value="Gravar">
+
+
+
+
+		</form>
+
+	</main>
+
+	<footer>
+
+	</footer>
+
+</body>
+
+</html>
